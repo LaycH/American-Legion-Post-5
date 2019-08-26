@@ -212,8 +212,45 @@ header #menu ul li a {
 }
 
 footer {
-  
+  text-align: center;
 }
+
+footer ul {
+  padding:0;
+}
+
+footer h3 {
+  margin: 0;
+  padding: 40px 0 0 0;
+}
+
+footer #contact {
+  background-color:#002266;
+}
+
+#contact h3, p, a {
+  color: darkgoldenrod;
+}
+
+#contact p {
+  padding-bottom: 40px;
+}
+
+#copyright {
+  font-size: .75em;
+  margin:0;
+  padding:0;
+
+}
+
+#follow li {
+  padding-top: 10px;
+}
+
+#follow a {
+  padding-top: 0;
+}
+
 
 
 

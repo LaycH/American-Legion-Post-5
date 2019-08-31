@@ -198,6 +198,7 @@ header #menu {
   flex-flow:row wrap;
   align-items:center;
   font-size: 1.125em;
+  background-color:#002266;
 }
 
 

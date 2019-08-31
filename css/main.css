@@ -134,7 +134,7 @@ figure {
 }
 
 .content-wrapper {
-  width: 100%;
+  width: 90%;
   margin:0;
   padding:0;
 }
@@ -154,15 +154,11 @@ header {
   padding: 20px 0 20px 0;
 }
 
-#logo {
-  padding-right:20px;
-}
-
 header h1  {
   font-size: 1em;
   text-align:center;
-  padding: 0;
-  margin: 10px;
+  padding: 0 10px 20px 10px;
+  margin: 0 10px 10px 10px;
 
 }
 
@@ -186,13 +182,14 @@ header nav {
 
 header nav ul {
   display:flex;
-  justify-content: space-around;
+  justify-content:space-between;
   width:100%;
-  padding:  0;
+  padding-left:0;
 }
 
 header nav ul li a {
   color: darkgoldenrod;
+  justify-content: space-around;
 }
 
 

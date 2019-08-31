@@ -190,6 +190,7 @@ header nav ul li a {
   color: darkgoldenrod;
 }
 
+
 header #menu {
   display: flex;
   width: 100%;
@@ -197,8 +198,8 @@ header #menu {
   flex-flow:row wrap;
   align-items:center;
   font-size: 1.125em;
-  background-color:#002266;
 }
+
 
 header #menu ul {
   display:flex;
@@ -252,17 +253,15 @@ footer #contact {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /****************** Mobile First Styles *********************************/
+
+/******** Main Styles ****************/
+
+
+
+
+/******************* End Mobile Styles *************************************/
+
 
 
 

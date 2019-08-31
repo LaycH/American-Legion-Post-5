@@ -134,7 +134,7 @@ figure {
 }
 
 .content-wrapper {
-  width: 90%;
+  width: 100%;
   margin:0;
   padding:0;
 }
@@ -154,11 +154,15 @@ header {
   padding: 20px 0 20px 0;
 }
 
+#logo {
+  padding-right:20px;
+}
+
 header h1  {
   font-size: 1em;
   text-align:center;
-  padding: 0 70px 0 80px;
-  margin: 0 0 20px 0;
+  padding: 0;
+  margin: 10px;
 
 }
 
@@ -168,11 +172,12 @@ header .content-wrapper {
   justify-content:center;
   flex-flow: row wrap;
   align-items:center;
+  
 }
 
 header nav {
   display: flex;
-  width: 60%;
+  width: 100%;
   justify-content: space-around;
   flex-flow:row wrap;
   align-items:center;
@@ -183,7 +188,7 @@ header nav ul {
   display:flex;
   justify-content: space-around;
   width:100%;
-  padding:  0 0 0 170px;
+  padding:  0;
 }
 
 header nav ul li a {
@@ -199,10 +204,11 @@ header #menu {
   align-items:center;
   font-size: 1.125em;
   background-color:#002266;
+
 }
 
 
-header #menu ul {
+/* header #menu ul {
   display:flex;
   justify-content: space-around;
   width:100%;
@@ -211,7 +217,7 @@ header #menu ul {
 
 header #menu ul li a {
   color: darkgoldenrod;
-}
+} */
 
 footer {
   text-align: center;

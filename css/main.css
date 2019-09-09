@@ -148,6 +148,7 @@ header, footer {
   justify-content:center;
   align-items:center;
   flex-flow: row wrap;
+  text-align: center;
 }
 
 header {
@@ -167,7 +168,7 @@ header .content-wrapper {
   display: flex;
   justify-content:center;
   flex-flow: row wrap;
-  align-items:center;
+  
   
 }
 
@@ -257,7 +258,16 @@ footer #contact {
 }
 
 
+
 /****************** Mobile First Styles *********************************/
+
+/******** Mobile Home Page *****************/
+
+/********** Mobile About Page ****************/
+
+.history-link {
+  color: #002266;
+}
 
 /******** Main Styles ****************/
 

@@ -139,6 +139,9 @@ figure {
   padding:0;
 }
 
+.info-link {
+  color: #002266;
+}
 
 
 /************* Base Header and Footer Styles **************************/
@@ -189,7 +192,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: darkgoldenrod;
+  color: #8B6508;
   justify-content: space-around;
 }
 
@@ -214,7 +217,7 @@ header #menu {
 }
 
 header #menu ul li a {
-  color: darkgoldenrod;
+  color: #8B6508;
 } */
 
 footer {
@@ -235,7 +238,7 @@ footer #contact {
 }
 
 #contact h3, p, a {
-  color: darkgoldenrod;
+  color:#8B6508;
 }
 
 #contact p {
@@ -255,24 +258,66 @@ footer #contact {
 
 #follow a {
   padding-top: 0;
+  color:#002266;
+}
+
+.members {
+  background-color: lightgray;
+}
+
+.members h2, ul p a {
+  color:#002266;
+
+}
+
+
+/****************** Mobile Styles Home page *********************************/
+
+.mission-statement{
+  display: flex;
+  width: 100%;
+  justify-content:center;
+  align-items:center;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.mission-statement h2{
+  margin-bottom: 0;
+}
+
+.events-area {
+  display: flex;
+  width: 100%;
+  justify-content:center;
+  align-items:center;
+  flex-flow: row wrap;
+  text-align: center;
 }
 
 
 
-/****************** Mobile First Styles *********************************/
 
-/******** Mobile Home Page *****************/
 
-/********** Mobile About Page ****************/
 
-.info-link {
-  color: #002266;
+
+/********** Mobile Styles About Page ****************/
+
+.cup-joe {
+  display: flex;
+  width: 100%;
+  justify-content:center;
+
 }
 
-/******** Main Styles ****************/
-
-
-
+.members {
+  display: flex;
+  width: 100%;
+  justify-content:center;
+  align-items:center;
+  flex-flow: row wrap;
+  text-align: center;
+}
 
 /******************* End Mobile Styles *************************************/
 
@@ -382,7 +427,7 @@ footer #contact {
  @media (min-width: 1200px) {
  
    body {
-     background: none;
+     background: lightgreen;
    }
       
  

@@ -130,14 +130,22 @@ h1, h2, h3 {
 }
 
 figure {
-  margin: 0;
+  overflow:hidden;
+}
+
+img {
+  max-width: 100%;
 }
 
 .content-wrapper {
   width: 90%;
-  margin:0;
-  padding:0;
+  margin: 0 auto;
+  display: flex;
+  justify-content:center;
+  flex-flow: row wrap;
+  overflow:hidden;
 }
+
 
 .info-link {
   color: #002266;
@@ -152,6 +160,7 @@ header, footer {
   align-items:center;
   flex-flow: row wrap;
   text-align: center;
+ 
 }
 
 header {
@@ -166,12 +175,7 @@ header h1  {
 
 }
 
-header .content-wrapper {
-  margin: 0;
-  display: flex;
-  justify-content:center;
-  flex-flow: row wrap;
-  
+
   
 }
 
@@ -229,7 +233,7 @@ footer ul {
 }
 
 footer h3 {
-  margin: 0;
+  margin: 0 auto;
   padding: 40px 0 0 0;
 }
 
@@ -247,7 +251,7 @@ footer #contact {
 
 #copyright {
   font-size: .75em;
-  margin:0;
+  margin:0 auto;
   padding:0;
 
 }
@@ -272,6 +276,7 @@ footer #contact {
 
 
 /****************** Mobile Styles Home page *********************************/
+
 
 .mission-statement{
   display: flex;

@@ -122,7 +122,7 @@ ul {
 a {
   color: #1a1a1a;
   text-decoration: none;
-  padding: 10px;
+  padding: 1px;
 }
 
 h1, h2, h3 {
@@ -151,6 +151,24 @@ img {
   color: #002266;
 }
 
+.events-area p {
+  color: #8B6508;
+  margin-top: 10px;
+}
+
+.events-area h2 {
+  margin-bottom: 0; 
+}
+
+.mission-statement p {
+  color: #8B6508;
+  margin: 10px 0 10px 0;
+}
+
+.cup-joe {
+  padding-bottom: 25px;
+}
+
 
 /************* Base Header and Footer Styles **************************/
 
@@ -176,9 +194,6 @@ header h1  {
 }
 
 
-  
-}
-
 header nav {
   display: flex;
   width: 100%;
@@ -198,6 +213,7 @@ header nav ul {
 header nav ul li a {
   color: #8B6508;
   justify-content: space-around;
+  padding: 10px;
 }
 
 
@@ -241,12 +257,18 @@ footer #contact {
   background-color:#002266;
 }
 
-#contact h3, p, a {
-  color:#8B6508;
+#contact h3 {
+  color: whitesmoke;
+  padding: 15px 5px 0px 5px;
 }
 
 #contact p {
   padding-bottom: 40px;
+  color:whitesmoke;
+}
+
+#contact a {
+  color: whitesmoke;
 }
 
 #copyright {
@@ -269,10 +291,12 @@ footer #contact {
   background-color: lightgray;
 }
 
-.members h2, ul p a {
-  color:#002266;
 
+.members, h2, ul, p, a {
+  color:#002266;
 }
+
+
 
 
 /****************** Mobile Styles Home page *********************************/
@@ -291,6 +315,7 @@ footer #contact {
   margin-bottom: 0;
 }
 
+
 .events-area {
   display: flex;
   width: 100%;
@@ -299,12 +324,6 @@ footer #contact {
   flex-flow: row wrap;
   text-align: center;
 }
-
-
-
-
-
-
 
 /********** Mobile Styles About Page ****************/
 
@@ -422,18 +441,76 @@ footer #contact {
      
 /********************* Tablet Styles **********************************/
 
-@media (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
 
   body {
     background: lightpink;
- }
+ } */
  
  /******************* Desktop Styles ************************/
- @media (min-width: 1200px) {
+ @media only screen and (min-width: 1200px) {
  
-   body {
-     background: lightgreen;
+  body{
+    margin:0 auto;
+  }
+
+  #header-title{
+    font-size: 1.875em;
+  }
+
+  p {
+    font-size: 1.4em;
+  }
+  
+  .content-wrapper {
+    max-width: 90%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin: 0 auto;
+    padding: 0px;
+    flex-flow: row wrap;
+  }
+  
+  #hero-home img {
+    width:100%;
+  }
+
+
+   #follow ul {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin: 0 auto;
+    padding: 10px 10px 60px 10px;
    }
+
+   #follow a {
+     padding: 10px;
+   }
+
+   #contact {
+    display: flex;
+    width: 100%;
+   }
+
+   #contact P{
+     padding-bottom: 0;
+     font-size: 1em;
+   }
+
+   #copyright {
+     margin:20px auto;
+     padding:40px 40px 0 40px;
+     font-size:.5em;
+   }
+
+
+
+
+
+
+
       
  
    

@@ -186,7 +186,7 @@ header {
 }
 
 header h1  {
-  font-size: 1em;
+  font-size: 1.2em;
   text-align:center;
   padding: 0 10px 20px 10px;
   margin: 0 10px 10px 10px;
@@ -299,7 +299,7 @@ footer #contact {
 
 
 
-/****************** Mobile Styles Home page *********************************/
+/****************** Mobile 1st Styles Home page *********************************/
 
 
 .mission-statement{
@@ -325,7 +325,7 @@ footer #contact {
   text-align: center;
 }
 
-/********** Mobile Styles About Page ****************/
+/********** Mobile 1st Styles About Page ****************/
 
 .cup-joe {
   display: flex;
@@ -343,7 +343,7 @@ footer #contact {
   text-align: center;
 }
 
-/******************* End Mobile Styles *************************************/
+/******************* End Mobile 1st Styles *************************************/
 
 
 
@@ -441,19 +441,19 @@ footer #contact {
      
 /********************* Tablet Styles **********************************/
 
-/* @media only screen and (min-width: 768px) {
 
-  body {
-    background: lightpink;
- } */
- 
- /******************* Desktop Styles ************************/
- @media only screen and (min-width: 1200px) {
+
+/******************* Desktop Styles ************************/
+
+  @media only screen and (min-width: 768px) {
+    
+ /* @media only screen and (min-width: 1200px) { */
  
   body{
     margin:0 auto;
   }
 
+  
   #header-title{
     font-size: 1.875em;
   }
@@ -492,6 +492,7 @@ footer #contact {
    #contact {
     display: flex;
     width: 100%;
+    flex-direction: column;
    }
 
    #contact P{
@@ -504,6 +505,8 @@ footer #contact {
      padding:40px 40px 0 40px;
      font-size:.5em;
    }
+
+  }
 
 
 

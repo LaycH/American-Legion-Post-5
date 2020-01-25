@@ -343,6 +343,10 @@ footer #contact {
   text-align: center;
 }
 
+.members, ul {
+  padding-left: 0;
+}
+
 /******************* End Mobile 1st Styles *************************************/
 
 
@@ -474,6 +478,16 @@ footer #contact {
   
   #hero-home img {
     width:100%;
+  }
+
+  .members, ul {
+    
+    display: flex;
+    width: 90%;
+    justify-content:center;
+    align-items:center;
+    /* flex-flow: row wrap; */
+    text-align: center;
   }
 
 
